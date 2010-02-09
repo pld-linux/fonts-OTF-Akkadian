@@ -1,3 +1,5 @@
+# TODO:
+# - pl description
 Summary:	Free UCS font for Cuneiform
 Summary(pl.UTF-8):	Wolnodostępny font UCS dla pisma klinowego
 Name:		fonts-OTF-Akkadian
@@ -21,9 +23,6 @@ The Unicode Standard 5.2: Basic Latin, Greek and Coptic, some
 Punctuation and other Symbols, Cuneiform, Cuneiform Numbers and
 Punctuation.
 
-%%description -l pl.UTF-8
-#TODO
-
 %prep
 %setup -qc
 
@@ -44,5 +43,4 @@ fontpostinst OTF
 
 %files
 %defattr(644,root,root,755)
-#%%doc *.txt
 %{otffontsdir}/Akkadian.otf
