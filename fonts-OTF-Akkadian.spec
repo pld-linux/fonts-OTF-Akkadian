@@ -1,12 +1,12 @@
 Summary:	Free UCS font for Cuneiform
 Summary(pl.UTF-8):	Wolnodostępny font UCS dla pisma klinowego
-Name:		fonts-OTF-Aegyptus
+Name:		fonts-OTF-Akkadian
 Version:	2.52
 Release:	1
 License:	Freeware
 Group:		Fonts
 Source0:	http://users.teilar.gr/~g1951d/Akkadian.zip
-# Source0-md5:	
+# Source0-md5:	dec2b1988c44b286199b7f7aed0e4119
 URL:		http://users.teilar.gr/~g1951d/
 BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
