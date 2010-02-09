@@ -25,7 +25,7 @@ Punctuation.
 #TODO
 
 %prep
-%setup -q -n freefont-%{version}
+%setup -qc
 
 %install
 rm -rf $RPM_BUILD_ROOT
